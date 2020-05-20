@@ -1,0 +1,13 @@
+.nav-bar {
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    padding: 10px 0;
+    position: fixed;
+    background-color: #20232a;
+}
+
+.nav-bar svg {
+    width:40px;
+}

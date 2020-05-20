@@ -1,0 +1,33 @@
+.search-form {
+ display: block;
+ border: 1px solid #3c83b8;
+}
+
+.search-input {
+    border: none;
+    padding: 0 10px;
+    line-height: 50px;
+    width: calc(100% - 60px);
+}
+.search-input:focus {
+    outline: none;
+}
+
+.search-button {
+    width: 60px;
+    border: none;
+    cursor: pointer;
+    line-height: 48px;
+    background-color:#3c83b8;
+}
+
+.search-button:focus{
+    outline: none;
+}
+
+.search-button svg {
+    top: 5px;
+    fill: #fff;
+    height: 20px;
+    position: relative;
+}
